@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="hidden1">
+      <div id="container1">
+        <!-- <p class="text-danger">Lorem ipsum dolor sit amet.</p> -->
+        <form action="" name="sign-up-form" class="form-control mb-3">
+          <h1>SIGN UP</h1>
+          <!-- <div class="form-floating mb-3">
+          <input
+            id="first-name"
+            name="first-name"
+            type="text"
+            placeholder="First name"
+          />
+           <label for="first-name">First Name</label>
+          </div> -->
+          <div class="first-name">
+            <label for="first-name"> First Name <br /> </label>
+            <input
+              type="text"
+              class="form-control"
+              id="first-name"
+              placeholder="First name"
+            />
+            <span id="fnalert"></span>
+          </div>
+          <div class="last-name">
+            <label for="last-name"> Last Name <br /> </label>
+            <input
+              type="text"
+              class="form-control"
+              id="last-name"
+              placeholder="Last name"
+            />
+            <span id="lnalert"></span>
+          </div>
+          <div id="age-submit">
+            <div class="age">
+              <label for="age">Umur</label>
+              <div class="biji">
+                <input
+                  id="age"
+                  name="age"
+                  type="number"
+                  min="1"
+                  class="form-control"
+                  placeholder="Age"
+                />
+                <span id="agealert"></span>
+              </div>
+              <button id="submit" class="btn btn-primary" type="submit">
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="container2" class="container2">
+      <div class="card">
+        <h1>Your Identity</h1>
+        <div id="hasil">
+          <p id="result"></p>
+          <p id="agehasil"></p>
+          <button class="btn btn-success" id="new">Masukan akun lain</button>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

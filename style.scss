@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  min-height: 93vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden1 {
+  display: none;
+}
+
+#container1 {
+  //   max-width: fit-content;
+  padding: 2em;
+  margin: 2em;
+  //   border-radius: 500px;
+  background-color: rgb(255, 255, 255);
+  // display: none;
+  //   width: 50px;
+  //   height: 50px;
+  // align-items: center;
+  // justify-content: center;
+  h1 {
+    margin: 1em 0;
+    text-align: center;
+  }
+
+  .first-name {
+    // display: none;
+  }
+
+  .last-name {
+    // display: none;
+  }
+
+  .age {
+    display: flex;
+    // align-items: baseline;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(246, 208, 215);
+    // cursor: pointer;
+    // box-shadow: 0 1px 20px rgb(75, 75, 75);
+    h1 {
+      text-align: center;
+    }
+  }
+  span {
+    padding: 0;
+    text-align: center;
+    color: red;
+  }
+
+  .result {
+    display: none;
+  }
+
+  .agehasil {
+    display: none;
+  }
+
+  label {
+    color: black;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    border-style: solid;
+  }
+
+  #first-name {
+    margin-bottom: 10px;
+  }
+
+  #last-name {
+    margin-bottom: 10px;
+  }
+
+  #age {
+    width: 90%;
+    margin-right: 10px;
+  }
+
+  #submit {
+    // margin-top: 25px;
+    width: 30%;
+  }
+
+  #age-submit {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    padding-inline: 0;
+    padding-block: 0;
+    justify-content: space-between;
+    label {
+      padding-left: 10px;
+      padding-right: 20px;
+      display: flex;
+      align-items: center;
+      // margin-bottom: 10px;
+    }
+  }
+}
+#container2 {
+  // display: none;
+
+  #hasil {
+  }
+  .card {
+    max-width: fit-content;
+    padding: 2em;
+    border-radius: 20px;
+    background-color: gray;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 1px 20px rgb(75, 75, 75);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    #result {
+      border-radius: 20px;
+    }
+    #agehasil {
+      border-radius: 20px;
+    }
+  }
+}
+
+.container2 {
+  display: none;
+}
